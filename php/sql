@@ -1,0 +1,2 @@
+CREATE DATABASE autos;
+CREATE TABLE `usuarios2`.`usuarios` ( `usuario_id` INT(11) NOT NULL AUTO_INCREMENT , `nombre_usuario` VARCHAR(50) NOT NULL , `edad_usuario` INT(2) NOT NULL , PRIMARY KEY (`usuario_id`), UNIQUE (`nombre_usuario`)) ENGINE = InnoDB;
